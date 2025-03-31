@@ -67,8 +67,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 }
 </style>
 <link rel='stylesheet' id='dashicons-css' href='/wp-includes/css/dashicons.min.css?ver=6.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='al_product_styles-css' href='/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1743449176&#038;ver=6.7.2' type='text/css' media='all' />
-<link rel='stylesheet' id='ic_blocks-css' href='/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1743449176&#038;ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='al_product_styles-css' href='/wp-content/plugins/ecommerce-product-catalog/css/al_product.min.css?timestamp=1743451449&#038;ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ic_blocks-css' href='/wp-content/plugins/ecommerce-product-catalog/includes/blocks/ic-blocks.min.css?timestamp=1743451449&#038;ver=6.7.2' type='text/css' media='all' />
 <style id='classic-theme-styles-inline-css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -87,7 +87,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/users/1" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.7.2" />
-<style type='text/css' media='all'>     
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("/wp-content/uploads/2025/03/pawel-czerwinski-fOXvuWswMDs-unsplash-2.jpg"); background-position: left top; background-size: contain; background-repeat: repeat; background-attachment: fixed; }
+</style>
+	<style type='text/css' media='all'>     
     .content-newsletter .blossomthemes-email-newsletter-wrapper.bg-img:after,
     .widget_blossomthemes_email_newsletter_widget .blossomthemes-email-newsletter-wrapper:after{
         background: rgba(243, 201, 221, 0.8);    }
@@ -333,10 +336,22 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     }
     
                
-    </style>
+    </style>		<style type="text/css" id="wp-custom-css">
+			#main-content .al_archive a h3.product-name.grey-box, #primary .page .entry-content .al_archive .product-name.grey-box, #product_listing .al_archive .product-name.grey-box, .al_archive .product-name.grey-box {
+    background-color: #000000;
+}
+
+#container.content-area.product-catalog .al_archive .product-price.grey-price, .al_archive .product-price.grey-price {
+    background-color: #000000;
+}
+
+.grey-box.button:active, .grey-box.button:focus, .grey-box.button:hover {
+    background-color: #000000;
+}		</style>
+		
 </head>
 
-<body class="archive author author-lianavaldez author-1 hfeed no-post full-width" itemscope itemtype="https://schema.org/WebPage">
+<body class="archive author author-lianavaldez author-1 custom-background hfeed no-post custom-background-image custom-background full-width" itemscope itemtype="https://schema.org/WebPage">
 	
     <div id="page" class="site"><a aria-label="skip to content" class="skip-link" href="#content">Skip to Content</a>
         <header id="masthead" class="site-header" itemscope itemtype="https://schema.org/WPHeader">
@@ -398,7 +413,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     <div class="primary-menu-list main-menu-modal cover-modal" data-modal-target-string=".main-menu-modal">
                         <button class="close close-main-nav-toggle" data-toggle-target=".main-menu-modal" data-toggle-body-class="showing-main-menu-modal" aria-expanded="false" data-set-focus=".main-menu-modal"><i class="fa fa-times"></i>Close</button>
                         <div class="mobile-menu" aria-label="Mobile">
-                			                        </div>
+                			<div class="menu-main-menu-container"><ul id="primary-menu" class="main-menu-modal"><li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-34"><a href="/">About</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="/products/">Menu</a></li>
+</ul></div>                        </div>
                     </div>
         		</nav><!-- #site-navigation -->                
 			</div>
