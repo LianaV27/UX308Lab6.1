@@ -2,11 +2,6 @@
 <urlset>
     <url>
         <loc>
-            http://localhost:8000/hello-world/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/
         </loc>
     </url>
@@ -27,7 +22,7 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/category/uncategorized/
+            http://localhost:8000/products/bubble-waffle/
         </loc>
     </url>
     <url>
